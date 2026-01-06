@@ -25,19 +25,19 @@ const Index = () => {
 
   const portfolio = [
     {
-      image: 'https://cdn.poehali.dev/projects/254bf089-d813-4712-9542-da1da5fc2341/files/3896a007-9b40-4256-8946-b8d0d08a3a9a.jpg',
-      title: '2D Volume',
+      image: 'https://cdn.poehali.dev/projects/254bf089-d813-4712-9542-da1da5fc2341/files/c76c519e-a6ba-4a32-8917-4ae4f018942e.jpg',
+      title: '1D Классика',
       description: 'Естественный и элегантный взгляд'
     },
     {
       image: 'https://cdn.poehali.dev/projects/254bf089-d813-4712-9542-da1da5fc2341/files/1987a5a3-2586-4bdd-9838-42dfeba15e99.jpg',
-      title: '3D Volume',
+      title: '3D Объём',
       description: 'Роскошный драматический эффект'
     },
     {
-      image: 'https://cdn.poehali.dev/projects/254bf089-d813-4712-9542-da1da5fc2341/files/3896a007-9b40-4256-8946-b8d0d08a3a9a.jpg',
-      title: 'Classic Look',
-      description: 'Безупречная классика'
+      image: 'https://cdn.poehali.dev/projects/254bf089-d813-4712-9542-da1da5fc2341/files/20ae7298-3caa-448a-85f8-6d7559d4e426.jpg',
+      title: '4D Голливуд',
+      description: 'Максимальный объём и выразительность'
     }
   ];
 
@@ -53,7 +53,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Lash Studio
+              Альбина | Lash Studio
             </h1>
             <div className="hidden md:flex gap-6">
               {['home', 'services', 'portfolio', 'reviews', 'contact'].map((section) => (
@@ -93,7 +93,7 @@ const Index = () => {
                 </span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                Создаём безупречную красоту с помощью премиальных материалов и авторских техник наращивания
+                Привет! Я Альбина, уже 5 лет создаю безупречную красоту с помощью премиальных материалов и авторских техник наращивания
               </p>
               <div className="flex gap-4">
                 <Button onClick={() => scrollToSection('contact')} size="lg" className="bg-gradient-to-r from-primary to-accent hover:scale-105 transition-transform">
@@ -109,7 +109,7 @@ const Index = () => {
                   <div className="text-sm text-muted-foreground">Довольных клиентов</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary">3 года</div>
+                  <div className="text-3xl font-bold text-primary">5 лет</div>
                   <div className="text-sm text-muted-foreground">Опыта работы</div>
                 </div>
                 <div>
@@ -229,9 +229,9 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">Наша команда</Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Сертификаты мастеров</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Обо мне</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Профессиональная квалификация подтверждена дипломами и сертификатами
+              Меня зовут Альбина, я занимаюсь наращиванием ресниц уже 5 лет. Моя квалификация подтверждена дипломами и сертификатами
             </p>
           </div>
           <div className="max-w-4xl mx-auto">
@@ -245,8 +245,8 @@ const Index = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <Icon name="Award" className="text-primary" size={32} />
                   <div>
-                    <h3 className="text-2xl font-bold">Сертифицированные мастера</h3>
-                    <p className="text-muted-foreground">Регулярное обучение и повышение квалификации</p>
+                    <h3 className="text-2xl font-bold">Сертифицированный мастер Альбина</h3>
+                    <p className="text-muted-foreground">Опыт 5 лет • Регулярное обучение и повышение квалификации</p>
                   </div>
                 </div>
                 <div className="grid md:grid-cols-3 gap-4 pt-4 border-t">
@@ -260,7 +260,7 @@ const Index = () => {
                   </div>
                   <div className="text-center">
                     <Icon name="CheckCircle2" className="text-primary mx-auto mb-2" size={24} />
-                    <p className="font-semibold">Опыт 3+ лет</p>
+                    <p className="font-semibold">Опыт 5 лет</p>
                   </div>
                 </div>
               </CardContent>
@@ -401,9 +401,9 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Lash Studio
+                Альбина | Lash Studio
               </h3>
-              <p className="text-white/70">Профессиональное наращивание ресниц в Самаре</p>
+              <p className="text-white/70">Профессиональное наращивание ресниц в Самаре • Опыт 5 лет</p>
             </div>
             <div>
               <h4 className="font-bold mb-4">Контакты</h4>
